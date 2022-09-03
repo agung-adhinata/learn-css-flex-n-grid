@@ -38,6 +38,13 @@ nav {
 .flex-reverse {
   flex-direction: row-reverse;
 }
+.flex-col {
+  flex-direction: column;
+}
+.flex-reverse-col {
+  flex-direction: column-reverse;
+}
+
 
 .container {
   display: flex;
@@ -46,6 +53,10 @@ nav {
   gap: 1rem;
   background-color: #18314F;
   overflow: auto;
+}
+
+.container__wrapper{
+  justify-content: center;
 }
 
 .container__child {
@@ -59,4 +70,8 @@ nav {
 
 .container--flex-wrap {
   flex-wrap: wrap;
+}
+
+.container--full {
+  width: 100%;
 }
