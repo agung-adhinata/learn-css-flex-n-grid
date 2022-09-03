@@ -50,13 +50,16 @@ nav {
   display: flex;
   border-radius: 1rem;
   padding: 0.5rem;
-  gap: 1rem;
+  gap: 0.5rem;
   background-color: #18314F;
   overflow: auto;
 }
 
 .container__wrapper{
   justify-content: center;
+  display: flex;
+  background-color: #18314F;
+  border-radius: 1rem;
 }
 
 .container__child {
