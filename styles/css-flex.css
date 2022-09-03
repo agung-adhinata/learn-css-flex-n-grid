@@ -60,6 +60,8 @@ nav {
   display: flex;
   background-color: #18314F;
   border-radius: 1rem;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .container__child {
