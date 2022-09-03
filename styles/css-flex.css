@@ -67,6 +67,9 @@ nav {
   padding: 2rem;
   border-radius: 0.75rem;
 }
+.container__child--full {
+  flex-grow: 2;
+}
 
 .container--flex-wrap {
   flex-wrap: wrap;
