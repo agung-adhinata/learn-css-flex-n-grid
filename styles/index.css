@@ -102,8 +102,8 @@ section {
   flex-grow: 0;
 }
 
-@media screen and(min-width: 400px) {
-  .main__inner {
-    flex-direction: row-reverse;
+@media screen and (max-width: 480px) {
+  * {
+    color: red;
   }
 }
