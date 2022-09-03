@@ -23,28 +23,25 @@ h1 {
   text-decoration: none;
   transition: all 250ms ease-in-out;
   padding: 2rem 3rem;
-  flex-grow: 0;
   display: flex;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .link:first-child {
-  flex-grow: 1;
   background-color: #18314F;
 }
 
 .link:hover,
 .link:focus {
-  text-decoration: underline;
-  flex-grow: 1;
   color: #18314F;
+  text-decoration: underline;
   background-color: #E6F9AF;
+  flex-grow: 6;
 }
 
 .link:hover:last-child,
 .link:focus:last-child {
-  text-decoration: underline;
-  flex-grow: 3;
   color: #EEF5DB;
   background-color: #FE5F55;
 }
