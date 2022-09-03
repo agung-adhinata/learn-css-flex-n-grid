@@ -45,6 +45,7 @@ nav {
   padding: 0.5rem;
   gap: 1rem;
   background-color: #18314F;
+  overflow: auto;
 }
 
 .container__child {
