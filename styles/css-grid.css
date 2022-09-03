@@ -25,6 +25,7 @@ a {
 nav {
   display: grid;
   grid-template-columns: 8rem 1fr;
+  padding: 1rem;
 }
 
 main {
@@ -49,6 +50,7 @@ main {
   background-color: #FE5F55;
   padding: 0.75rem;
   border-radius: 0.70rem;
+  text-align: center;
 }
 .container__child-long {
   grid-column: 1/2;
